@@ -23,8 +23,16 @@ The following files were used to run WIT on the movie streaming scenario:
 
 - `user_data_full.csv`: Contains user IDs and features like age, gender, and occupation
 - `recommendation_data.csv`: Predicted top movies for each user
-- 
+  
 We merged and sampled from these datasets to create inputs for WIT.
+
+## 📸 Evidence of Use
+
+✅ We successfully launched WIT in a Jupyter Notebook and used it to interactively change user features and watch the predictions update.
+
+For example:
+
+Changing a user’s age from 35 to 16 shifted their top recommendation from a war film to an animated comedy.
 
 ## 🧠 Example Usage
 
@@ -50,11 +58,3 @@ model = DummyModel()
 # Launch WIT
 config = WitConfigBuilder(wit_inputs).set_custom_predict_fn(model.predict)
 WitWidget(config)```
-
-## 📸 Evidence of Use
-
-✅ We successfully launched WIT in a Jupyter Notebook and used it to interactively change user features and watch the predictions update.
-
-For example:
-
-Changing a user’s age from 35 to 16 shifted their top recommendation from a war film to an animated comedy.
