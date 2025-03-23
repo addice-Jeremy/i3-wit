@@ -23,8 +23,7 @@ The following files were used to run WIT on the movie streaming scenario:
 
 - `user_data_full.csv`: Contains user IDs and features like age, gender, and occupation
 - `recommendation_data.csv`: Predicted top movies for each user
-- `ratelog_2025-02.csv`: Ratings users gave to movies (used for building initial model)
-
+- 
 We merged and sampled from these datasets to create inputs for WIT.
 
 ## 🧠 Example Usage
