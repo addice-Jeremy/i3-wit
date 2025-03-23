@@ -49,7 +49,7 @@ model = DummyModel()
 
 # Launch WIT
 config = WitConfigBuilder(wit_inputs).set_custom_predict_fn(model.predict)
-WitWidget(config)
+WitWidget(config)```
 
 ## 📸 Evidence of Use
 
